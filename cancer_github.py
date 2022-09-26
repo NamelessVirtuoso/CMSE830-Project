@@ -3,7 +3,7 @@ import seaborn as sns
 import pandas as pd
 import plotly as pl
 import plotly.express as px
-url="https://github.com/NamelessVirtuoso/CMSE830-Project/blob/main/data.csv"
+url="https://raw.githubusercontent.com/NamelessVirtuoso/CMSE830-Project/main/data.csv"
 data = pd.read_csv(url)
 result = data.diagnosis
 st.write("""
